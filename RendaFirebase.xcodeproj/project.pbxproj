@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF608BE427CC686700365217 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF608BE327CC686700365217 /* AppDelegate.swift */; };
+		BF608BE627CC686700365217 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF608BE527CC686700365217 /* SceneDelegate.swift */; };
+		BF608BE827CC686700365217 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF608BE727CC686700365217 /* ViewController.swift */; };
+		BF608BEB27CC686700365217 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF608BE927CC686700365217 /* Main.storyboard */; };
+		BF608BED27CC686800365217 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF608BEC27CC686800365217 /* Assets.xcassets */; };
+		BF608BF027CC686800365217 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF608BEE27CC686800365217 /* LaunchScreen.storyboard */; };
+		BF608BFB27CC686800365217 /* RendaFirebaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF608BFA27CC686800365217 /* RendaFirebaseTests.swift */; };
+		BF608C0527CC686800365217 /* RendaFirebaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF608C0427CC686800365217 /* RendaFirebaseUITests.swift */; };
+		BF608C0727CC686800365217 /* RendaFirebaseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF608C0627CC686800365217 /* RendaFirebaseUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF608BF727CC686800365217 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF608BD827CC686700365217 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF608BDF27CC686700365217;
+			remoteInfo = RendaFirebase;
+		};
+		BF608C0127CC686800365217 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF608BD827CC686700365217 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF608BDF27CC686700365217;
+			remoteInfo = RendaFirebase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF608BE027CC686700365217 /* RendaFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RendaFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF608BE327CC686700365217 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF608BE527CC686700365217 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BF608BE727CC686700365217 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF608BEA27CC686700365217 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF608BEC27CC686800365217 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF608BEF27CC686800365217 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF608BF127CC686800365217 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF608BF627CC686800365217 /* RendaFirebaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RendaFirebaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF608BFA27CC686800365217 /* RendaFirebaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RendaFirebaseTests.swift; sourceTree = "<group>"; };
+		BF608C0027CC686800365217 /* RendaFirebaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RendaFirebaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF608C0427CC686800365217 /* RendaFirebaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RendaFirebaseUITests.swift; sourceTree = "<group>"; };
+		BF608C0627CC686800365217 /* RendaFirebaseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RendaFirebaseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF608BDD27CC686700365217 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF608BF327CC686800365217 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF608BFD27CC686800365217 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF608BD727CC686700365217 = {
+			isa = PBXGroup;
+			children = (
+				BF608BE227CC686700365217 /* RendaFirebase */,
+				BF608BF927CC686800365217 /* RendaFirebaseTests */,
+				BF608C0327CC686800365217 /* RendaFirebaseUITests */,
+				BF608BE127CC686700365217 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF608BE127CC686700365217 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF608BE027CC686700365217 /* RendaFirebase.app */,
+				BF608BF627CC686800365217 /* RendaFirebaseTests.xctest */,
+				BF608C0027CC686800365217 /* RendaFirebaseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF608BE227CC686700365217 /* RendaFirebase */ = {
+			isa = PBXGroup;
+			children = (
+				BF608BE327CC686700365217 /* AppDelegate.swift */,
+				BF608BE527CC686700365217 /* SceneDelegate.swift */,
+				BF608BE727CC686700365217 /* ViewController.swift */,
+				BF608BE927CC686700365217 /* Main.storyboard */,
+				BF608BEC27CC686800365217 /* Assets.xcassets */,
+				BF608BEE27CC686800365217 /* LaunchScreen.storyboard */,
+				BF608BF127CC686800365217 /* Info.plist */,
+			);
+			path = RendaFirebase;
+			sourceTree = "<group>";
+		};
+		BF608BF927CC686800365217 /* RendaFirebaseTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF608BFA27CC686800365217 /* RendaFirebaseTests.swift */,
+			);
+			path = RendaFirebaseTests;
+			sourceTree = "<group>";
+		};
+		BF608C0327CC686800365217 /* RendaFirebaseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF608C0427CC686800365217 /* RendaFirebaseUITests.swift */,
+				BF608C0627CC686800365217 /* RendaFirebaseUITestsLaunchTests.swift */,
+			);
+			path = RendaFirebaseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF608BDF27CC686700365217 /* RendaFirebase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF608C0A27CC686800365217 /* Build configuration list for PBXNativeTarget "RendaFirebase" */;
+			buildPhases = (
+				BF608BDC27CC686700365217 /* Sources */,
+				BF608BDD27CC686700365217 /* Frameworks */,
+				BF608BDE27CC686700365217 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RendaFirebase;
+			productName = RendaFirebase;
+			productReference = BF608BE027CC686700365217 /* RendaFirebase.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF608BF527CC686800365217 /* RendaFirebaseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF608C0D27CC686800365217 /* Build configuration list for PBXNativeTarget "RendaFirebaseTests" */;
+			buildPhases = (
+				BF608BF227CC686800365217 /* Sources */,
+				BF608BF327CC686800365217 /* Frameworks */,
+				BF608BF427CC686800365217 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF608BF827CC686800365217 /* PBXTargetDependency */,
+			);
+			name = RendaFirebaseTests;
+			productName = RendaFirebaseTests;
+			productReference = BF608BF627CC686800365217 /* RendaFirebaseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF608BFF27CC686800365217 /* RendaFirebaseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF608C1027CC686800365217 /* Build configuration list for PBXNativeTarget "RendaFirebaseUITests" */;
+			buildPhases = (
+				BF608BFC27CC686800365217 /* Sources */,
+				BF608BFD27CC686800365217 /* Frameworks */,
+				BF608BFE27CC686800365217 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF608C0227CC686800365217 /* PBXTargetDependency */,
+			);
+			name = RendaFirebaseUITests;
+			productName = RendaFirebaseUITests;
+			productReference = BF608C0027CC686800365217 /* RendaFirebaseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF608BD827CC686700365217 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					BF608BDF27CC686700365217 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					BF608BF527CC686800365217 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = BF608BDF27CC686700365217;
+					};
+					BF608BFF27CC686800365217 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = BF608BDF27CC686700365217;
+					};
+				};
+			};
+			buildConfigurationList = BF608BDB27CC686700365217 /* Build configuration list for PBXProject "RendaFirebase" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF608BD727CC686700365217;
+			productRefGroup = BF608BE127CC686700365217 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF608BDF27CC686700365217 /* RendaFirebase */,
+				BF608BF527CC686800365217 /* RendaFirebaseTests */,
+				BF608BFF27CC686800365217 /* RendaFirebaseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF608BDE27CC686700365217 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF608BF027CC686800365217 /* LaunchScreen.storyboard in Resources */,
+				BF608BED27CC686800365217 /* Assets.xcassets in Resources */,
+				BF608BEB27CC686700365217 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF608BF427CC686800365217 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF608BFE27CC686800365217 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF608BDC27CC686700365217 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF608BE827CC686700365217 /* ViewController.swift in Sources */,
+				BF608BE427CC686700365217 /* AppDelegate.swift in Sources */,
+				BF608BE627CC686700365217 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF608BF227CC686800365217 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF608BFB27CC686800365217 /* RendaFirebaseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF608BFC27CC686800365217 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF608C0727CC686800365217 /* RendaFirebaseUITestsLaunchTests.swift in Sources */,
+				BF608C0527CC686800365217 /* RendaFirebaseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF608BF827CC686800365217 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF608BDF27CC686700365217 /* RendaFirebase */;
+			targetProxy = BF608BF727CC686800365217 /* PBXContainerItemProxy */;
+		};
+		BF608C0227CC686800365217 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF608BDF27CC686700365217 /* RendaFirebase */;
+			targetProxy = BF608C0127CC686800365217 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF608BE927CC686700365217 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF608BEA27CC686700365217 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF608BEE27CC686800365217 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF608BEF27CC686800365217 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF608C0827CC686800365217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF608C0927CC686800365217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF608C0B27CC686800365217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H6WZ83BNAM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RendaFirebase/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kurokawa.KURO.RendaFirebase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF608C0C27CC686800365217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H6WZ83BNAM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RendaFirebase/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kurokawa.KURO.RendaFirebase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BF608C0E27CC686800365217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H6WZ83BNAM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kurokawa.KURO.RendaFirebaseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RendaFirebase.app/RendaFirebase";
+			};
+			name = Debug;
+		};
+		BF608C0F27CC686800365217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H6WZ83BNAM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kurokawa.KURO.RendaFirebaseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RendaFirebase.app/RendaFirebase";
+			};
+			name = Release;
+		};
+		BF608C1127CC686800365217 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H6WZ83BNAM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kurokawa.KURO.RendaFirebaseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RendaFirebase;
+			};
+			name = Debug;
+		};
+		BF608C1227CC686800365217 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H6WZ83BNAM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Kurokawa.KURO.RendaFirebaseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RendaFirebase;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF608BDB27CC686700365217 /* Build configuration list for PBXProject "RendaFirebase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF608C0827CC686800365217 /* Debug */,
+				BF608C0927CC686800365217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF608C0A27CC686800365217 /* Build configuration list for PBXNativeTarget "RendaFirebase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF608C0B27CC686800365217 /* Debug */,
+				BF608C0C27CC686800365217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF608C0D27CC686800365217 /* Build configuration list for PBXNativeTarget "RendaFirebaseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF608C0E27CC686800365217 /* Debug */,
+				BF608C0F27CC686800365217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF608C1027CC686800365217 /* Build configuration list for PBXNativeTarget "RendaFirebaseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF608C1127CC686800365217 /* Debug */,
+				BF608C1227CC686800365217 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF608BD827CC686700365217 /* Project object */;
+}
